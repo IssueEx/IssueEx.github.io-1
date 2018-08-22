@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stlyesheet" type="text/css" href="stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+* {
+    box-sizing: border-box;
+}
+.bg{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: lightblue;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+      background-color: lightblue;
+  }
+
+  .active {
+      background-color: lightblue;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: pink;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: lightblue;
+  color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: gold;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+body { background-image:url("https://www.planwallpaper.com/static/images/blurry-lights-background.jpg"); height: 100%;background-repeat:no-repeat; background-position:center; background-size: cover;background-attachment:fixed  }
+
+  </style>
+<body bgcolor="#E6E6FA">
+</body>
+<body>
+  <img src="issueEx.png" alt = "logo">
+</body>
+<script src="myscript.js"> </script>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="file:///Users/gwc24/Desktop/finalProject/final.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn"class="active">Violence
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///Users/gwc24/Desktop/finalProject/gang.html">Gang</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/domestic.html"class="active">Domestic</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/childabuse.html">Children</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Climate Change
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///Users/gwc24/Desktop/finalProject/info.html">Information</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/affectsHuman.html">Affects on Humans</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/affectsAnimals.html">Affects on Animals</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Disability
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///Users/gwc24/Desktop/finalProject/transport.html">Transportation</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/Accessibility.html">Accessibility</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/insurance.html">Insurance</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/inde.html">Independence</a>
+    </div>
+  </div>
+  <a href="file:///Users/gwc24/Desktop/finalProject/aboutus.html">About Us</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<a href="file:///Users/gwc24/Desktop/finalProject/SEARCHBAR.html">Feedback</a>
+<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</style>
+<title>Page Title</title>
+</head>
+<body background="file:///Users/gwc24/Downloads/blurry-lights-background.jpg">
+
+
+
+<b><h1 style="color:black;"align="center">Domestic Violence</b></h1>
+
+<div>
+  <center><img id="img3" src="https://media3.giphy.com/media/jP67EcHi1mOKQ/giphy.gif"></center>
+</div>
+<h2 style="color:black;"align="center"> What is Domestic Violence?</h2>
+<p style="color:black;">  Domestic violence is violence or other abuse by one person against another
+  in a domestic setting, such as in marriage or cohabitation. It mostly occurs in
+  a marriage or relationship and most of the time women are the ones being abused by their
+  partners.
+
+</p>
+<h3 style="color:black;"align="center"> How it all started? </h3>
+<p style="color:black;"> Domestic Violence started back in the stone ages with men punishing their wife
+  if something was not done right or if they dared to disobey their husbands,
+  and as the years went on men thought that this was not an incorrect action. In the late 90's
+  domestic violence became such danger to women and sometimes to men that a law was
+  passed by the United States in 1990.
+</p>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/t5D35moLm5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+<h4 style="color:black;"align="center">Sources used and Articles to read</h4>
+<p style="color:black;"><a href="https://en.wikipedia.org/wiki/Domestic_violence_in_the_United_States">Source Used</a></p></center>
+<center><p style="color:black;"><a href="https://www.getinclusive.com/blog/crime-women-brief-history-laws-us">Article</a></p></center>
+<center><p style="color:black;"><a href="https://www.getinclusive.com/blog/crime-women-brief-history-laws-us">Article</a></p></center>
+
+</ul>
+<div>
+  <center><img id="img1" src="http://prohibition.themobmuseum.org/wp-content/uploads/2016/11/The_BottleTemperance.gif"></center>
+</div>
+<h5 style="color:black;"align="center">Church Involvement</h5>
+<center><p style="color:black;">Churches play a big role in men's mindset that women have to
+  submit to them and should be punished if they don't. In churches
+  domestic violence is ignored, while in reality it's becoming
+  a bigger problem, but priests continue to ignore the issue because to them divorce isn't an option.
+  Therefore these abused women have to stay with their husband and do what ever they are told to do
+  in order to have a perfect relationship.
+</p></center>
+   <div>
+   <center><img id="img2" src="https://i.pinimg.com/originals/7a/cb/e4/7acbe4d134b323ca47b7b27d5ff455be.jpg"></center>
+   </div>
+
+<h4 style="color:black;"align="center">Sources used and Articles to read</h4>
+<center><p><a style="color:black;"href="https://www.nytimes.com/2018/05/10/opinion/churches-can-no-longer-hide-domestic-violence.html">Source Used</a></p></center>
+<center><p><a style="color:black;"href="https://www.ncbi.nlm.nih.gov/pubmed/29400149">Article</a></p></center>
+<center><p><a style="color:black;"href="https://www.christianitytoday.com/news/2017/february/how-pastors-perceive-domestic-violence-lifeway-autumn-miles.html">Article</a></p></center>
+
+<div>
+  <h5 style="color:black;"align="center">Help </h5>
+  <center><p style="color:black;"> Asking for help or looking for help is ok, and it's a big step towards moving
+  on and starting a new life. It's not gong to be easy to leave because you think
+your partner loves you, but its time for you to realize that if they really did or do love
+you they woud never put you through the pain they make you go through. I know i'm not
+the person to tell you what to do or not do. But if you need help here are some
+hotlines were you can get help and some articles to read as well.</p></center>
+  <h6 style="color:black;"align="center">Hotline</h6>
+  <ul>
+    <li style="color:black;">National Domestic Violence Hotline : 1-800 - 799-7233  </li>
+    <li style="color:black;">TTY : 1-800-787- 3224</li>
+    <li style="color:black;">OWH HELPLINE : 1-800-994-9662</li>
+  </ul>
+  <div>
+  <center><img id="img2" src="https://slm-assets3.secondlife.com/assets/7747314/original/iPhone-5.gif?1368893165"></center>
+  </div>
+  <h4 style="color:black;" align="center">Sources used and Articles to read</h4>
+  <p style="color:black;"><a href="https://www.thehotline.org/is-this-abuse/why-do-people-stay-in-abusive-relationships/">Source Used</a></p>
+  <center><p style="color:black;"><a href="https://www.thehotline.org/blog/get-help-today/">Article</a></p></center>
+  <center><p style="color:black;"><a href="https://www.everydayhealth.com/news/ways-to-get-help-for-domestic-violence/">Article</a></p></center>
+  </ul>
+  <center><iframe width="560" height="315" src="https://www.youtube.com/embed/V1yW5IsnSjo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+  <div class="row">
+<link rel="stlyesheet" type="text/css" href="stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+iframe {
+  imagealign:center;
+
+
+}
+#img3 {
+  img-align:center;
+  height: 300px;
+  border: 3px solid #73AD21;
+}
+a {
+  color:black;
+}
+li {
+  color:white;
+  font-size: 25px;
+  font-family:cursive;
+}
+h1{
+  font-size: 45px;
+  font-family: Palatino;
+  color:white;
+}
+h6 {
+  font-size:25px;
+  color:white;
+}
+h5 {
+  font-size: 30px;
+  color:white;
+}
+h4 {
+  font-size: 35px;
+  color:white;
+}
+h3 {
+  font-size: 25px;
+  color:white;
+}
+#img1 {
+  imagealign:center;
+  height: 300px;
+  border: 3px solid #73AD21;
+
+
+}
+#img2 {
+  imagealign:center;
+  height: 300px;
+  border: 3px solid #73AD21;
+}
+p {
+  text-align:center;
+  font-size:25px;
+  color:white;
+}
+h2 {
+  font-size: 35px;
+  color:white;
+}
+</style>
+
+</body>
+</html>

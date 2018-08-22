@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stlyesheet" type="text/css" href="stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+* {
+    box-sizing: border-box;
+}
+.bg{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: none;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+      background-color: lightblue;
+  }
+
+  .active {
+      background-color: lightblue;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: pink;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: lightblue;
+  color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: gold;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+#img3 {
+  img-align:center;
+  height: 300px;
+  border: 0px solid #73AD21;
+}
+a {
+  color:black;
+}
+li {
+  color:white;
+  font-size: 25px;
+}
+h1{
+  font-size: 45px;
+  font-family: Palatino;
+  color:white;
+}
+h6 {
+  font-size:25px;
+  color:white;
+}
+h5 {
+  font-size: 30px;
+  color:white;
+}
+h4 {
+  font-size: 35px;
+  color:white;
+}
+h3 {
+  font-size: 25px;
+  color:white;
+}
+p {
+  text-align:center;
+  font-size:25px;
+  color:white;
+}
+h2 {
+  font-size: 35px;
+  color:white;
+}
+body { background-image:url("https://www.planwallpaper.com/static/images/blurry-lights-background.jpg"); height: 100%;background-repeat:no-repeat; background-position:center; background-size: cover;background-attachment:fixed  }
+  </style>
+<body bgcolor="#E6E6FA">
+</body>
+<body>
+  <img src="issueEx.png" alt = "logo">
+</body>
+<script src="myscript.js"> </script>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="file:///Users/gwc24/Desktop/finalProject/final.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn"class="active">Violence
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///Users/gwc24/Desktop/finalProject/gang.html"class="active">Gang</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/domestic.html">Domestic</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/childabuse.html">Children</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Climate Change
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///Users/gwc24/Desktop/finalProject/info.html">Information</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/affectsHuman.html">Affects on Humans</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/affectsAnimals.html">Affects on Animals</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Disability
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///Users/gwc24/Desktop/finalProject/transport.html">Transportation</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/Accessibility.html">Accessibility</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/insurance.html">Insurance</a>
+      <a href="file:///Users/gwc24/Desktop/finalProject/inde.html">Independence</a>
+    </div>
+  </div>
+  <a href="file:///Users/gwc24/Desktop/finalProject/aboutus.html">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<a href="file:///Users/gwc24/Desktop/finalProject/SEARCHBAR.html">Feedback</a>
+<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</style>
+<title>Gang</title>
+</head>
+<body background="file:///Users/gwc24/Downloads/blurry-lights-background.jpgf">
+
+  <center><img id="img3" src="https://78.media.tumblr.com/a67f1df3419a3f0d64b53885699af33b/tumblr_oco490VpCE1u01wkio1_500.gif"></center>
+</div>
+<center><h1 style="color:black;">Gang Violence</h1></center>
+<h2 style="color:black;"text-align="center"> MS-13 </h2>
+<div>
+  <p style="color:black;"> MS-13 or also known as Mara Salvatrucha is one of the biggest
+gang in the United States. It holds a threat to the United States government and the
+ people that live around this gang. MS-1 holds a bigger threat to the most rural
+poor areas in the United States and also in El Salvador were majority of the gang members
+are from.
+</p>
+</div>
+<h3 style="color:black;"text-align="center"> Facts </h3>
+<ul>
+  <li style="color:black">MS-13 signuture symbol is the devils horn</li>
+  <li style="color:black;">The have a criminal activity of Drug trafficking, illegal immigration, people smuggling, robbery, larceny, human trafficking, extortion, murder, money laundering, prostitution (including child prostitution), racketeering, battery, kidnapping, and arms trafficking </li>
+  <li style="color:black;">8,000–10,000 (In the US) 30,000–50,000 (All around the world)</li>
+</ul>
+<h4 style="color:black;"align="center">Sources used and Articles to read</h4>
+<p style="color:black;"><a href="https://en.wikipedia.org/wiki/MS-13">Source Used</a></p
+<center><p style="color:black;"><a href="https://www.usatoday.com/story/opinion/2018/05/17/ms-13-donald-trump-gang-violence-animals-immigrants-media-column/621537002/">Article</a></p>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/CgKpACQyhgk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+</ul>
+
+  <center><img id="img1" src="https://38.media.tumblr.com/e9c6cf76b7ecc4ab0ceb131e8812f36f/tumblr_nsiwax0ijf1rs4osro1_400.gif" width="400" height="300"></center>
+</div>
+<h5 style="color:black;"align="center"> Bloods</h5>
+<p style="color:black;"> Bloods are a gang that started in the streets of Los Angeles , CA they
+  are known for having members of their gang all over the United States and also their
+  color red witch widly represtents them. Bloods have affected many poor neigboorhoods
+  because this is were most of their members live. Some people might know about bloods because
+some of the most famous rappers are actully bloods like Gucci Mane , 6ix9ine.</p>
+<h6 style="color:black;"align="center"> Facts</h6>
+<center><img id="img2" src="https://i.pinimg.com/originals/07/b1/df/07b1df29ad5083551f80d711dcbb8cf2.jpg" width="400" height="300"></center>
+</div>
+<ul>
+  <li style="color:black;">Years active : 1972- Present</li>
+  <li style="color:black;">The have a criminal activity of Drug trafficking , robbery , murder , bulgary , prostitution , theft , extortion.</li>
+  <li style="color:black;">20,000-25,000</li>
+  <li style="color:black;"> Many african americans but also many latinos</li>
+</ul>
+<h4 style="color:black;"align="center">Sources used and Articles to read</h4>
+<p style="color:black;"><a href="https://en.wikipedia.org/wiki/Bloods">Source Used</a></p
+<center><p style="color:black;"><a href="https://www.britannica.com/topic/Bloods-gang">Article</a></p>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/ldznqcJ-K4U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+</ul>
+  <h5 style="color:black;"align="center">Latin King</h5>
+  <p style="color:black;"> The Latin Kings is a gang mostly made of Mexicans , Puerto Ricans
+  and also African Americans. latin Kings is number one of the most dangerous
+  gang in the mation. They represent the color black and gold and they are very known
+  for there phrase "Amor de Rey". Both MS-13 and Bloods are rival gangs.</p>
+  <h6 style="color:black;"align="center"> Facts</h6>
+
+  <ul>
+    <li style="color:black;">Years active : 1950'S - Present</li>
+    <li style="color:black;">The have a criminal activity of Drug trafficking , robbery , murder , weapons trafficking, auto theft , racketeering.</li>
+    <li style="color:black;">50,000 in the US still more unkown numbers</li>
+  </ul>
+
+  <center><img id="img2" src="https://www.gangenforcement.com/uploads/2/9/4/1/29411337/8055626_orig.gif"></center>
+  </div>
+  <h4 style="color:black;"align="center">Sources used and Articles to read</h4>
+  <p style="color:black;"><a href="https://en.wikipedia.org/wiki/Latin_Kings_(gang)">Source Used</a></p
+  <center><p style="color:black;"><a href="https://www.quora.com/What-does-amor-de-rey-mean-How-can-it-be-used-in-a-sentence">Article</a></p>
+  <p style="color:black;"><a href="http://www.chicagotribune.com/news/local/breaking/ct-met-latin-kings-indicted-murder-racketeering-20180208-story.html">Article</a></p>
+  <center><iframe width="560" height="315" src="https://www.youtube.com/embed/EO6A612eF04" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+  </ul>
+
+<link rel="stlyesheet" type="text/css" href="stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</body>
+</html>
